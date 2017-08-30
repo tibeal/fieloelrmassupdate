@@ -59,7 +59,7 @@ From:
 to:
 > ![FieloPRP_Product](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod.gif?raw=true)
 
-Where Family__c and Description__c are fields from the new product object.
+Where **Family__c** and **Description__c** are fields from the new product object.
 
 From:
 > ![FieloPRP_ProductRecent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product_recent.gif?raw=true)
@@ -67,7 +67,7 @@ From:
 to:
 > ![FieloPRP_ProductRecent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_recent.gif?raw=true)
 
-Where Family__c and Description__c are fields from the new product object.
+Where **Family__c** and **Description__c** are fields from the new product object.
 
 From:
 > ![FieloPRP_InvoiceItems](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/items.gif?raw=true)
@@ -75,7 +75,7 @@ From:
 to:
 > ![FieloPRP_InvoiceItems](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_item.gif?raw=true)
 
-Where External_Product__c is the field from Invoice Items that is a Lookup for the new product object.
+Where **External_Product__c** is the field from **Invoice Items** that is a Lookup for the new product object.
 
 Now we should save the new JSON somewhere in our PC and we go to:
 
@@ -89,7 +89,7 @@ Save the changes in both Page Settings.
 
 Now you should be able to see and create new invoices with the new product object! :simple_smile:
 
-Example:
+**Example**:
 
 Items:
 ![Items](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_items.gif?raw=true)
@@ -102,4 +102,4 @@ Product results:
 
 Thanks!
 
-That's all Folks! :rabbit:
+**_That's all Folks!_** :rabbit:
