@@ -33,17 +33,25 @@ There you will find 3 sections:
 - **FieloPRP_Product** : Responsable for the fields displayed in the advanced search section
 
 > ![FieloPRP_Product](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product.gif?raw=true)
-
+Responsible for:
 > ![Advanced Product Search Section](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/advanced_search_section.gif?raw=true)
 
 - **FieloPRP_ProductRecent** : Responsible for the fields displayed in the recent records results of the advanced search
 
 > ![FieloPRP_ProductRecent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product_recent.gif?raw=true)
-
+Responsible for:
 > ![Advanced Search Recent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/advanced_search_recent.gif?raw=true)
 
 - **FieloPRP_InvoiceItems** : Responsible for the fields displayed in the Items section of the Invoice Form
 
 > ![FieloPRP_InvoiceItems](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/items.gif?raw=true)
-
+Responsible for:
 > ![Invoice Items](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/items_section.gif?raw=true)
+
+In order to put the new object we can do the following:
+
+From:
+> ![FieloPRP_Product](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product.gif?raw=true)
+to:
+> ![FieloPRP_Product](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod.gif?raw=true)
+to:
