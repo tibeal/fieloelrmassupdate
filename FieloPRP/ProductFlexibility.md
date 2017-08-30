@@ -54,4 +54,3 @@ From:
 > ![FieloPRP_Product](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product.gif?raw=true)
 to:
 > ![FieloPRP_Product](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod.gif?raw=true)
-to:
