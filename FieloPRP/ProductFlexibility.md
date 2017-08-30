@@ -1,4 +1,4 @@
-# Fielo Proof of Purchase: Product Flexibility
+# Fielo Proof of Purchase Feature: _Product Flexibility_
 ## Intro
 The Fielo's Proof of Purchase (FieloPRP) has a functionality called _Product Flexibility_ that enables developers, consultants or administrators to change the Product object used by the Proof of Purchase App.
 By default the object used by the Proof of Purchase solution is the **Product2** object that comes with Salesforce. If the customer wants to use another object just follow the following Tutorial. This procedure must be done in both _Backend_ and _Frontend_.
