@@ -16,7 +16,7 @@ In the section "**Default Organization Level Value**" click Edit or New if there
 
 Edit the field "**Product Lookup Field**" and put as its value the ApiName of the Field in the Invoice Items Object (FieloPRP__InvoiceItem__c) that points to the custom product object.
 
-![Public Settings Edit](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/ScreenHunter_01%20Aug.%2030%2011.45.gif?raw=true)
+> ![Public Settings Edit](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/ScreenHunter_01%20Aug.%2030%2011.45.gif?raw=true)
 
 Hit Save.
 
@@ -32,14 +32,14 @@ There you will find 3 sections:
 
 - **FieloPRP_Product** : Responsable for the fields displayed in the advanced search section
 
-![FieloPRP_Product](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product.gif?raw=true)
+> ![FieloPRP_Product](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product.gif?raw=true)
 
-![Advanced Product Search Section](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/advanced_search_section.gif?raw=true)
+> ![Advanced Product Search Section](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/advanced_search_section.gif?raw=true)
 
 - **FieloPRP_ProductRecent** : Responsible for the fields displayed in the recent records results of the advanced search
 
-![FieloPRP_ProductRecent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product_recent.gif?raw=true)
+> ![FieloPRP_ProductRecent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product_recent.gif?raw=true)
 
-![Advanced Search Recent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/advanced_search_section.gif?raw=true)
+> ![Advanced Search Recent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/advanced_search_recent.gif?raw=true)
 
 - **FieloPRP_InvoiceItems** : Responsible for the fields displayed in the Items section of the Invoice Form
