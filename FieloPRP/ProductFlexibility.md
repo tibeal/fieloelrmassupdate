@@ -25,3 +25,12 @@ With this the First Step is completed.
 ## 2. Backend
 The field being used by the Invoice Item to reference the product and the fieldsets of the product advanced search are controlled by Page Settings.
 The Standard Page Settings for the Proof of Purchase looks like the following:
+
+> [Invoice Edit Page Settings] (https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/PageSettings.json)
+
+There you will find 3 sections:
+- *FieloPRP_Product*: Responsable for the fields displayed in the advanced search section
+
+- *FieloPRP_ProductRecent*: Responsible for the fields displayed in the recent records results of the advanced search
+
+- *FieloPRP_InvoiceItems*: Responsible for the fields displayed in the Items section of the Invoice Form
