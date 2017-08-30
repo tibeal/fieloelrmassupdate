@@ -51,7 +51,7 @@ Responsible for:
 Responsible for:
 > ![Invoice Items](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/items_section.gif?raw=true)
 
-In order to put the new object we can do the following:
+We recomend using some advanced text editor tool to change the JSON. In order to put the new object we can do the following:
 
 From:
 > ![FieloPRP_Product](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product.gif?raw=true)
@@ -74,3 +74,13 @@ From:
 
 to:
 > ![FieloPRP_InvoiceItems](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_item.gif?raw=true)
+
+Where External_Product__c is the field from Invoice Items that is a Lookup for the new product object.
+
+Now we should save the new JSON somewhere in our PC and we go to:
+
+> **Fielo Platform** App > **Libraries** Tab > **FieloPRP** Library > "**Invoice > New**" and "**Invoice > Edi**t" page settings
+
+In these two page settings paste the content of the new JSON in the field Sections like this:
+
+> ![Edit Section Field](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/edit_section.gif?raw=true)
