@@ -30,25 +30,25 @@ The Standard Page Settings for the Proof of Purchase looks like the following:
 
 There you will find 3 sections:
 
-- **FieloPRP_Product** : Responsable for the fields displayed in the advanced search section
+- **FieloPRP_Product** : Controls the fields displayed in the advanced search section
 
 > ![FieloPRP_Product](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product.gif?raw=true)
 
-Responsible for:
+Controls:
 > ![Advanced Product Search Section](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/advanced_search_section.gif?raw=true)
 
-- **FieloPRP_ProductRecent** : Responsible for the fields displayed in the recent records results of the advanced search
+- **FieloPRP_ProductRecent** : Controls the fields displayed in the recent records results of the advanced search
 
 > ![FieloPRP_ProductRecent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product_recent.gif?raw=true)
 
-Responsible for:
+Controls:
 > ![Advanced Search Recent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/advanced_search_recent.gif?raw=true)
 
-- **FieloPRP_InvoiceItems** : Responsible for the fields displayed in the Items section of the Invoice Form
+- **FieloPRP_InvoiceItems** : Controls the fields displayed in the Items section of the Invoice Form
 
 > ![FieloPRP_InvoiceItems](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/items.gif?raw=true)
 
-Responsible for:
+Controls:
 > ![Invoice Items](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/items_section.gif?raw=true)
 
 We recomend using some advanced text editor tool to change the JSON. In order to put the new object we can do the following:
