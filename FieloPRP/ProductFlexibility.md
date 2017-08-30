@@ -84,3 +84,22 @@ Now we should save the new JSON somewhere in our PC and we go to:
 In these two page settings paste the content of the new JSON in the field Sections like this:
 
 > ![Edit Section Field](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/edit_section.gif?raw=true)
+
+Save the changes in both Page Settings.
+
+Now you should be able to see and create new invoices with the new product object! :simple_smile:
+
+Example:
+
+Items:
+![Items](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_items.gif?raw=true)
+
+Product search:
+![Product search](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_serarch.gif?raw=true)
+
+Product results:
+![Product results](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_results.gif?raw=true)
+
+Thanks!
+
+That's all Folks! :rabbit:
