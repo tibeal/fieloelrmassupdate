@@ -92,13 +92,16 @@ Now you should be able to see and create new invoices with the new product objec
 **Example**:
 
 Items:
-![Items](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_items.gif?raw=true)
+
+> ![Items](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_items.gif?raw=true)
 
 Product search:
-![Product search](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_serarch.gif?raw=true)
+
+> ![Product search](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_serarch.gif?raw=true)
 
 Product results:
-![Product results](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_results.gif?raw=true)
+
+> ![Product results](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_results.gif?raw=true)
 
 Thanks!
 
