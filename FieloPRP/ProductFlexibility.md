@@ -87,7 +87,7 @@ In these two page settings paste the content of the new JSON in the field Sectio
 
 Save the changes in both Page Settings.
 
-Now you should be able to see and create new invoices with the new product object! :simple_smile:
+Now you should be able to see and create new invoices with the new product object! :smile:
 
 **Example**:
 
