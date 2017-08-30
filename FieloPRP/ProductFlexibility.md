@@ -31,8 +31,15 @@ The Standard Page Settings for the Proof of Purchase looks like the following:
 There you will find 3 sections:
 
 - **FieloPRP_Product** : Responsable for the fields displayed in the advanced search section
-![FieloPRP_Product] (https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product.gif?raw=true)
+
+![FieloPRP_Product](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product.gif?raw=true)
+
+![Advanced Product Search Section](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/advanced_search_section.gif?raw=true)
 
 - **FieloPRP_ProductRecent** : Responsible for the fields displayed in the recent records results of the advanced search
+
+![FieloPRP_ProductRecent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product_recent.gif?raw=true)
+
+![Advanced Search Recent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/advanced_search_section.gif?raw=true)
 
 - **FieloPRP_InvoiceItems** : Responsible for the fields displayed in the Items section of the Invoice Form
