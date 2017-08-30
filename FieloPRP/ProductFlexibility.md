@@ -26,7 +26,7 @@ With this the First Step is completed.
 The field being used by the Invoice Item to reference the product and the fieldsets of the product advanced search are controlled by Page Settings.
 The Standard Page Settings Section Field for the Invoice Edit/New looks like the following:
 
-> [Invoice Edit Page Settings] (https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/PageSettings.json)
+> [Invoice Edit Page Settings](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/PageSettings.json)
 
 There you will find 3 sections:
 
