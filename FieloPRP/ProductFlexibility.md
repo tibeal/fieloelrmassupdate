@@ -123,6 +123,17 @@ In order to use the custom Product object in Frontend, make the following settin
 5. Go back to *Fielo Member Site* profile
 6. Go to *Custom Object Permissions* and give *Read* access to the custom product object
 
+### 3.3 Avoiding Products to be shown as links
+Do this to prevent the product from displaying with a link on the invoice detail page.
+1. In the *Invoice Item* object, create a new field from type *Formula*
+2. Assign it a label and a name, removing all the underline characters from its *Name* field (CamelCase notation)
+3. Set the *Formula Return Type* to *Text*
+4. In the Formula field (Advanced Formula tab), click the *Insert Field* button, select the field as shown in the example below e clink *Insert*.
+![image](https://user-images.githubusercontent.com/26011197/29893757-7eb90be2-8da9-11e7-9db2-e88dd52e0ba0.png)
+5. In the next page, make it visible for all profiles
+6. Click *Next* then *Save*
+
+
 Thanks!
 
 **_That's all Folks!_** :rabbit:
