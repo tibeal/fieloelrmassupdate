@@ -103,6 +103,20 @@ Product results:
 
 > ![Product results](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_results.gif?raw=true)
 
+Change page settings for all pages that display product items!
+
+## 3. Frontend
+In order to use the custom Product object in Frontend, make the following settings:
+
+### 3.1 Site Permissions
+1. From Setup, go to Build -> Develop -> Sites
+2. Click on the Site label then click the *Public Access Settings* button
+3. Go to *Field-Level Security* -> *Custom Field-Level Security* and click the *View* link beside your custom product object
+4. Clink the *Edit* button
+5. Give *Read Access* permission to all fields and *Edit Access* permission to the allowed fields 
+
+
+
 Thanks!
 
 **_That's all Folks!_** :rabbit:
