@@ -58,3 +58,19 @@ From:
 
 to:
 > ![FieloPRP_Product](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod.gif?raw=true)
+
+Where Family__c and Description__c are fields from the new product object.
+
+From:
+> ![FieloPRP_ProductRecent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/product_recent.gif?raw=true)
+
+to:
+> ![FieloPRP_ProductRecent](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_recent.gif?raw=true)
+
+Where Family__c and Description__c are fields from the new product object.
+
+From:
+> ![FieloPRP_InvoiceItems](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/items.gif?raw=true)
+
+to:
+> ![FieloPRP_InvoiceItems](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_item.gif?raw=true)
