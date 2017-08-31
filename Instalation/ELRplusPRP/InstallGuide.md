@@ -51,7 +51,7 @@ Here is the link to the Official Documentation:
 Here's a little help. These are the objects for each package that aren't in the Official Documentation:
 
 FieloELR
-- Answer
+**- Answer
 - Answer Options
 - Course
 - Course Dependency
@@ -60,12 +60,12 @@ FieloELR
 - Module Dependency
 - Module Response
 - Question
-- Question Response
+- Question Response**
 
 FieloPRP
-- Invoice
+**- Invoice
 - Invoice Item
-- Product2 \*\*\*
+- Product2 \*\*\* **
 
 \*\*\*: Depending of your implementation, another product object must replace the Product2 object
 
