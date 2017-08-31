@@ -26,4 +26,6 @@ Use the following repositories in order to configure your environment:
 
 | Repository | Branch |
 | --- | --- |
-|[FieloCMS-FieloPLT](https://github.com/Fielo-Plugins/fielocms-fieloplt)| master |
+|[FieloCMS-FieloPLT](https://github.com/Fielo-Plugins/fielocms-fieloplt)| feature/naming |
+|[FieloCMS-FieloELR](https://github.com/Fielo-Plugins/fielocms-fieloelr)| master |
+|[FieloCMS-FieloPRP](https://github.com/Fielo-Plugins/fielocms-fieloprp)| master |
