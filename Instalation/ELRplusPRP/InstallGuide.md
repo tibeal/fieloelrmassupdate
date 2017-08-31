@@ -35,3 +35,13 @@ Deploy them in the following order:
 1. **FieloCMS-FieloPLT**
 2. **FieloCMS-FieloELR**
 3. **FieloCMS-FieloPRP**
+
+After deploying all of them into your org follow the Official Documentation Guide that will guide you through all the org configuration such as:
+ - Site Configuration
+ - Customer Portal Configuration
+ - Profile Configuration
+ - and so on...
+ 
+Here is the link to the Official Documentation:
+
+> [Fielo PLT & CMS packages](https://documentation.fielo.com/docs/fielo-platform-cms-packages)
