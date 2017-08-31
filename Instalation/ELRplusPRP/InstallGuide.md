@@ -13,10 +13,10 @@ We recomend using the following package versions:
 
 Install them in the following sequence:
 
-1. FieloPLT
-2. FieloCMS
-3. FieloELR
-4. FieloPRP
+1. **FieloPLT**
+2. **FieloCMS**
+3. **FieloELR**
+4. **FieloPRP**
 
 When you finish the installation of them all you will be ready to go to the next section
 
@@ -29,3 +29,9 @@ Use the following combination of repositories/branches to configure your environ
 |[FieloCMS-FieloPLT](https://github.com/Fielo-Plugins/fielocms-fieloplt)| feature/naming |
 |[FieloCMS-FieloELR](https://github.com/Fielo-Plugins/fielocms-fieloelr)| master |
 |[FieloCMS-FieloPRP](https://github.com/Fielo-Plugins/fielocms-fieloprp)| master |
+
+Deploy them in the following order:
+
+1. **FieloCMS-FieloPLT**
+2. **FieloCMS-FieloELR**
+3. **FieloCMS-FieloPRP**
