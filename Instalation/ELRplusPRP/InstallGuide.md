@@ -65,7 +65,7 @@ _**FieloELR**_
 _**FieloPRP**_
 - **Invoice**
 - **Invoice Item**
-- **Product2 \*\*\* **
+- **Product2** \*\*\*
 
 \*\*\*: Depending of your implementation, another product object must replace the Product2 object
 
