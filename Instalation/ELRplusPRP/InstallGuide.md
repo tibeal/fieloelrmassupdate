@@ -22,7 +22,7 @@ When you finish the installation of them all you will be ready to go to the next
 
 ## 2. Plugins Installation
 
-Use the following repositories in order to configure your environment:
+Use the following combination of repositories/branches to configure your environment:
 
 | Repository | Branch |
 | --- | --- |
