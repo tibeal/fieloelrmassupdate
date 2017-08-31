@@ -17,3 +17,13 @@ Install them in the following sequence:
 2. FieloCMS
 3. FieloELR
 4. FieloPRP
+
+When you finish the installation of them all you will be ready to go to the next section
+
+## 2. Plugins Installation
+
+Use the following repositories in order to configure your environment:
+
+| Repository | Branch |
+| --- | --- |
+|[FieloCMS-FieloPLT](https://github.com/Fielo-Plugins/fielocms-fieloplt)| master |
