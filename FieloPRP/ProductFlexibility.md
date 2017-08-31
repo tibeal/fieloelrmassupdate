@@ -138,12 +138,13 @@ Do this to prevent the product from displaying with a link on the invoice detail
 2. Select the option *Local* on the right up corner
 3. Press the *New* button
 4. Create the new component with the following settings:
-- Component Type = List
-- Name = \<component name\>
-- Layout = table
-- Object = \<the custom object created for the new products\>
-- Data Class = FieloCMS.StandardAPI
-- Components Fields = \<add the desired fields\>
+
+        Component Type = List
+        Name = <component name>
+        Layout = table
+        Object = <the custom object created for the new products>
+        Data Class = FieloCMS.StandardAPI
+        Components Fields = <add the desired fields>
 
 ### 3.5 Site settings 
 1. Go to Fielo CMS *Sites* tab
