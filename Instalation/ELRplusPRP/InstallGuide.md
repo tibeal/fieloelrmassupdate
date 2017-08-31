@@ -48,4 +48,25 @@ Here is the link to the Official Documentation:
 
 **_NOTE_**: Remember that the official documentation is for the PLT and CMS only. There are some sections that asks you to add permissions or set object attributes in order to enable them to the CMS. Do not forget to do the same for the ELR and PRP objects!!!
 
+Here's a little help. These are the objects for each package that aren't in the Official Documentation:
+
+FieloELR
+- Answer
+- Answer Options
+- Course
+- Course Dependency
+- Course Status
+- Module
+- Module Dependency
+- Module Response
+- Question
+- Question Response
+
+FieloPRP
+- Invoice
+- Invoice Item
+- Product2 \*\*\*
+
+\*\*\*: Depending of your implementation, another product object must replace the Product2 object
+
 :construction: :warning: **_Work In Progress! This Document isn't ready yet!!!_** :warning: :construction:
