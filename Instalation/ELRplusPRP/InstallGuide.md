@@ -50,7 +50,7 @@ Here is the link to the Official Documentation:
 
 Here's a little help. These are the objects for each package that aren't in the Official Documentation:
 
-FieloELR
+_**FieloELR**_
 - **Answer**
 - **Answer Options**
 - **Course**
@@ -62,7 +62,7 @@ FieloELR
 - **Question**
 - **Question Response**
 
-FieloPRP
+_**FieloPRP**_
 - **Invoice**
 - **Invoice Item**
 - **Product2 \*\*\* **
