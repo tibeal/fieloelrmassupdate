@@ -47,3 +47,5 @@ Here is the link to the Official Documentation:
 > [Fielo PLT & CMS packages](https://documentation.fielo.com/docs/fielo-platform-cms-packages)
 
 **_NOTE_**: Remember that the official documentation is for the PLT and CMS only. There are some sections that asks you to add permissions or set object attributes in order to enable them to the CMS. Do not forget to do the same for the ELR and PRP objects!!!
+
+**_Work In Progress! This Document isn't ready yet!!!_**
