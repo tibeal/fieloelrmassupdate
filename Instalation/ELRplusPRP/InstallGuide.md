@@ -90,6 +90,18 @@ That should make you able to activate the FieloELR Library.
 
 ## 4. Plugins
 
+In order to activate the required plugins go to:
+
+> **Fielo CMS** App > **Plugins** Tab > **Actions** Button
+
+For each prugin hit activate. In the following order:
+
+- FieloCMS
+- PlatformPlugin
+- ElrPlugin :warning:
+- PrpPlugin
+
+
 ## 5. Program Configuration CMS
 
 In the Programs tab go to:
