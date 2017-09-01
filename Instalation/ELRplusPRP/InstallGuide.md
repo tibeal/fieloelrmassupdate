@@ -125,8 +125,22 @@ Create a new static resource with this configuration
 | File | File downloaded in step 4.1 |
 | Cache Control | Public |
 
+## 5. Create Your Site
 
-## 5. Program Configuration CMS
+Go to:
+
+> **Fielo CMS** App > **Sites** Tab
+
+By the first time in this page you will be asked to create a new Site Layout. We recomend using the _Create It_ link.
+
+There you will chose your Site Name, Look & Feel and Template.
+
+We recomend the following:
+
+| Look & Feel - Themes | The only one available |
+| Template | Header + Footer |
+
+## 6. Program Configuration CMS
 
 In the Programs tab go to:
 
