@@ -100,7 +100,11 @@ If the field isn't in the classic layout edit the layout and add the field "**St
 
 ![Add Image](https://github.com/tibeal/Fielo-Tutorials/blob/b135714f55037cb299c89163fd73be327ebb315b/Instalation/Source/Add%20View%20Action.png?raw=true) <!-- .element height="50%" width="50%" -->
 
+After that, go back to the Programs tab and go to:
 
+> Tools > View
+
+If they are not in the layout add the fields **Register Step 2 Page**, **Site URL**, **Site User Profile** and **User Creation Clas** to the layout.
 
 
 :construction: :warning: **_Work In Progress! This Document isn't ready yet!!!_** :warning: :construction:
