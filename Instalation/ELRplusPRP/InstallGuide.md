@@ -140,6 +140,14 @@ We recomend the following:
 - **Look & Feel - Themes**: The only one available
 - **Template**: Header + Footer
 
+After that, still in the Sites tab create some pages. We suggest creating the following pages from it's models:
+
+- **FieloPLT**
+ - Contact Us
+ - F.A.Q.s
+ - Login & Register
+ - My Profile
+
 ## 6. Program Configuration CMS
 
 In the Programs tab go to:
