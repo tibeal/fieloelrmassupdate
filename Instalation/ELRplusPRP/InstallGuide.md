@@ -140,6 +140,8 @@ We recomend the following:
 - **Look & Feel - Themes**: The only one available
 - **Template**: Header + Footer
 
+Then, edit your site and chose Fielo as your **Salesforce Site**.
+
 After that, still in the Sites tab create some pages. We suggest creating the following pages from it's models:
 
 - **FieloPLT**
