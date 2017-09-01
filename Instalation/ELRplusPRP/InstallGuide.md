@@ -137,9 +137,8 @@ There you will chose your Site Name, Look & Feel and Template.
 
 We recomend the following:
 
-| --- | --- | --- |
-| Look & Feel - Themes | The only one available |
-| Template | Header + Footer |
+- **Look & Feel - Themes**: The only one available
+- **Template**: Header + Footer
 
 ## 6. Program Configuration CMS
 
