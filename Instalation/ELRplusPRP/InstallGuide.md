@@ -218,7 +218,14 @@ After that, go back to the Programs tab and go to:
 
 > Tools > View
 
-If they are not in the layout add the fields **Register Step 2 Page**, **Site URL**, **Site User Profile** and **User Creation Clas** to the layout.
+If they are not in the layout add the fields **Register Step 2 Page**, **Site URL**, **Site User Profile** and **User Creation Clas** to the layout and set them as follows:
+
+| Field | Value | Description |
+| --- | --- | --- |
+| Register Step 2 Page | Register 2 | |
+| Site URL | <_site\_url_) | The Site URL from the site configured for this CMS |
+| Site User Profile | Fielo Member Site |  |
+| User Creation Class | UserCreationFielo |  |
 
 
 :construction: :warning: **_Work In Progress! This Document isn't ready yet!!!_** :warning: :construction:
