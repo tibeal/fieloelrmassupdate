@@ -80,8 +80,11 @@ To do so, just go to:
 
 > **Fielo Platform** App > **Libraries** Tab > _Activate all the Libraries_
 
-> **NOTE**: The FieloELR library has an issue. It uses Models in order to make easier for the users to create Courses from pre-defined templates. So, before you activate it, go to the Models Object
+**NOTE**: The FieloELR library has an issue. It uses Models in order to make easier for the users to create Courses from pre-defined templates. So, before you activate it, go to the Models Object
 
 > **Setup** \> **Create** \> **Objects** \> **Model** > **FieloPLT\_\_Type\_\_c** Field
 
+Add the value **Course** to the picklist values.
+
+That should make you able to activate the FieloELR Library.
 :construction: :warning: **_Work In Progress! This Document isn't ready yet!!!_** :warning: :construction:
