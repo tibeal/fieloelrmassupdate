@@ -227,5 +227,7 @@ If they are not in the layout add the fields **Register Step 2 Page**, **Site UR
 | Site User Profile | Fielo Member Site |  |
 | User Creation Class | UserCreationFielo |  |
 
+Example:
+[!Program Site Config](https://raw.githubusercontent.com/tibeal/Fielo-Tutorials/b6ee5ac3f0716324db71cb99a70f6c82e798f5d8/Instalation/Source/ProgramSiteConfig.gif)
 
 :construction: :warning: **_Work In Progress! This Document isn't ready yet!!!_** :warning: :construction:
