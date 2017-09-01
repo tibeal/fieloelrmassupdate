@@ -96,7 +96,7 @@ In the Programs tab go to:
 
 If the field isn't in the classic layout edit the layout and add the field "**Standard Actions**", hit save. In the **Program > View** page settings add the value **View** to the field **Standard Actions** and save.
 
-![Add Image](https://github.com/tibeal/Fielo-Tutorials/blob/master/Instalation/Source/Add%20View%20Action.png?raw=true) <!-- .element height="50%" width="50%" -->
+![Add Image](https://github.com/tibeal/Fielo-Tutorials/blob/master/Instalation/Source/Add%20View%20Action.png?raw=true) <!-- .element height="30%" width="30%" -->
 
 
 
