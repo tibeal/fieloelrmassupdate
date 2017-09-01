@@ -88,7 +88,9 @@ Add the value **Course** to the picklist values.
 
 That should make you able to activate the FieloELR Library.
 
-## 4. Program Configuration CMS
+## 4. Plugins
+
+## 5. Program Configuration CMS
 
 In the Programs tab go to:
 
