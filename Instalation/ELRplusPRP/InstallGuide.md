@@ -73,7 +73,7 @@ _**FieloPRP**_
 
 ![Add Image](https://github.com/tibeal/Fielo-Tutorials/blob/master/Instalation/Source/Add%20RecordType.png?raw=true) <!-- .element height="50%" width="50%" -->
 
-## Libraries
+## 3. Libraries
 
 After you followed all the steps from the Official Document and the notes and the tips of this tutorial, you can activate the Libraries of the Packages.
 To do so, just go to:
