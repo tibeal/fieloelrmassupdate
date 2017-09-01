@@ -103,9 +103,28 @@ For each prugin hit activate. In the following order:
 
 ## 4. Fielo Theme
 
+### 4.1 Dowload the Theme
+
 There is a repository that holds some styling templates for the CMS. Just go to:
 
 > [Fielo Themes Latest Release](https://github.com/Fielo-Themes/origin/releases/latest)
+
+And download the Zip file.
+
+### 4.2 Upload the Theme into Salesforce
+
+Back to your Salesforce Org go to:
+
+> **Setup** > **Develop** > **Static Resources**
+
+Create a new static resource with this configuration
+
+| Field | Value |
+| --- | --- |
+| Name | FieloCMS_Theme_Origin |
+| File | File downloaded in step 4.1 |
+| Cache Control | Public |
+
 
 ## 5. Program Configuration CMS
 
