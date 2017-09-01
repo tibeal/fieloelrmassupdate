@@ -243,8 +243,6 @@ Add Invoices to the **Selected Tabs**
 
 ![Fielo Platform Tabs](https://raw.githubusercontent.com/tibeal/Fielo-Tutorials/6d06cbf0719170dab0fedb172a6a103fa7871547/Instalation/Source/FieloPlatformAppConfig.gif)
 
-:construction: :warning: **_Work In Progress! This Document isn't ready yet!!!_** :warning: :construction:
-
 ## 8. Create a Member to access the Site
 
 First, we must create the Account that will hold the members.
@@ -301,3 +299,5 @@ In the backend go to:
 Remove the component Login and add the Login component which configuration has only three fields (Title, CSS Classname and Order)
 
 After that if the CMS asks you for authentication go to the Member Profile and to the Site Public settings and add the Login Class to the allowed Apex Classes.
+
+:construction: :warning: **_Work In Progress! This Document isn't ready yet!!!_** :warning: :construction:
