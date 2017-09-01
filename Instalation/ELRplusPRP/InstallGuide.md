@@ -244,3 +244,60 @@ Add Invoices to the **Selected Tabs**
 ![Fielo Platform Tabs](https://raw.githubusercontent.com/tibeal/Fielo-Tutorials/6d06cbf0719170dab0fedb172a6a103fa7871547/Instalation/Source/FieloPlatformAppConfig.gif)
 
 :construction: :warning: **_Work In Progress! This Document isn't ready yet!!!_** :warning: :construction:
+
+## 8. Create a Member to access the Site
+
+First, we must create the Account that will hold the members.
+
+Go to:
+
+> All tabs > Accounts
+
+Just create an Account and fill all the required fields.
+
+Then go to Members tab and hit New
+
+Fill the fields in the form, put your email and the Account created in the previous instruction.
+
+This should create the member and also creates an contact under the previous created account.
+
+Before creating the user for the Member, first we must set an **Role** for the **current user** in order to be able to create other users.
+
+Under your name click on **My settings** and then go to:
+
+> Personal > Advanced User Details
+
+Hit *edit* and chose an Role for you. (It doesn't matter which one you chose)
+
+Click save.
+
+Now go to the Account. In the Account Detail you will see a related list with a contact with the same configuration of member you just created. 
+
+Click on the contact name.
+
+In the Contact Detail go to **Manage External User** and click on **Enable Customer User**.
+
+Set the following configuration:
+
+| Field | Value |
+| --- | --- |
+| User License | Authenticated Website |
+| Profile | Fielo Member Site |
+
+Hit save.
+
+In the new user detail, save somewhere the User Id *(you can get it in the URL)*.
+
+Now go to the member again and with the help of any plugin or through the developer console  or through the classic salesforce view update the member field whose apiname is **FieloPLT\_\_User\_\_c**.
+
+Now go to your CMS Portal and go to the tab "**LOGIN & REGISTER**".
+
+If you are not able to see the login section do the following:
+
+In the backend go to:
+
+> Fielo CMS App > Sites Tab > Login & Register Component
+
+Remove the component Login and add the Login component which configuration has only three fields (Title, CSS Classname and Order)
+
+After that if the CMS asks you for authentication go to the Member Profile and to the Site Public settings and add the Login Class to the allowed Apex Classes.
