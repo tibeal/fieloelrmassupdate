@@ -101,6 +101,11 @@ For each prugin hit activate. In the following order:
 - ElrPlugin :warning:
 - PrpPlugin
 
+## 4. Fielo Theme
+
+There is a repository that holds some styling templates for the CMS. Just go to:
+
+> [Fielo Themes Latest Release](https://github.com/Fielo-Themes/origin/releases/latest)
 
 ## 5. Program Configuration CMS
 
