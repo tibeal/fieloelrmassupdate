@@ -231,4 +231,16 @@ Example:
 
 ![Program Site Config](https://raw.githubusercontent.com/tibeal/Fielo-Tutorials/b6ee5ac3f0716324db71cb99a70f6c82e798f5d8/Instalation/Source/ProgramSiteConfig.gif)
 
+By now your Site should be working. There are few steps more to be 100% functional.
+
+## 7. Add tabs to Fielo Platform App
+
+Go to:
+
+> Setup > Create > Apps > Fielo Platform > Edit
+
+Add Invoices to the **Selected Tabs**
+
+![Fielo Platform Tabs](https://raw.githubusercontent.com/tibeal/Fielo-Tutorials/6d06cbf0719170dab0fedb172a6a103fa7871547/Instalation/Source/FieloPlatformAppConfig.gif)
+
 :construction: :warning: **_Work In Progress! This Document isn't ready yet!!!_** :warning: :construction:
