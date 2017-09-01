@@ -143,10 +143,10 @@ We recomend the following:
 After that, still in the Sites tab create some pages. We suggest creating the following pages from it's models:
 
 - **FieloPLT**
- - Contact Us
- - F.A.Q.s
- - Login & Register
- - My Profile
+  - Contact Us
+  - F.A.Q.s
+  - Login & Register
+  - My Profile
 
 ## 6. Program Configuration CMS
 
