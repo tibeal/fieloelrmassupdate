@@ -143,6 +143,7 @@ We recomend the following:
 After that, still in the Sites tab create some pages. We suggest creating the following pages from it's models:
 
 - **FieloPLT**
+  - Home
   - Contact Us
   - F.A.Q.s
   - Login & Register
@@ -182,6 +183,19 @@ In the **Invoice Upload** section you should set the following:
 | Product Source Component | Product List |  |
 
 **NOTE**: If you are not able to see any of this fields go to the Component object configuration or to your profile configuration and check the field's permissions.
+
+Now go to:
+
+> **Sites** Tab > **Main** Navigation
+
+There is a button called **Add Existing Page**. With that add the following pages:
+
+-
+-
+-
+-
+-
+
 
 ## 6. Program Configuration CMS
 
