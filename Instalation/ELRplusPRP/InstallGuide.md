@@ -181,7 +181,7 @@ In the **Invoice Upload** section you should set the following:
 | Has Details	| True |  |
 | Product Source Component | Product List |  |
 
-
+**NOTE**: If you are not able to see any of this fields go to the Component object configuration or to your profile configuration and check the field's permissions.
 
 ## 6. Program Configuration CMS
 
