@@ -190,12 +190,13 @@ Now go to:
 
 There is a button called **Add Existing Page**. With that add the following pages:
 
--
--
--
--
--
-
+- Home
+- My Profile
+- Contact Us
+- F.A.Q.s
+- Login & Register
+- My Invoices
+- Invoice Upload
 
 ## 6. Program Configuration CMS
 
