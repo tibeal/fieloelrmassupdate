@@ -160,11 +160,11 @@ After that, still in the Sites tab create some pages. We suggest creating the fo
   - Invoice Upload Settings
   - Invoice Upload
   
-### 5.2 FieloELR Implementation Guide
+### 5.1 FieloELR Implementation Guide
 
 :warning:
 
-### 5.1 FieloPRP Implementation Guide
+### 5.2 FieloPRP Implementation Guide
 
 After creating the suggested pages from step 5, one should do the following configuration go to:
 
