@@ -82,8 +82,6 @@ To do so, just go to:
 
 > **NOTE**: The FieloELR library has an issue. It uses Models in order to make easier for the users to create Courses from pre-defined templates. So, before you activate it, go to the Models Object
 
-> Setup \> Develop \> Objects
-
-<blockquote>Here is a quote or block of text</blockquote>
+> **Setup** \> **Create** \> **Objects** \> **Model** > **FieloPLT\_\_Type\_\_c** Field
 
 :construction: :warning: **_Work In Progress! This Document isn't ready yet!!!_** :warning: :construction:
