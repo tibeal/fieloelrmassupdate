@@ -69,8 +69,19 @@ _**FieloPRP**_
 
 \*\*\*: Depending of your implementation, another product object must replace the Product2 object
 
-**_TIP_**: The administrator user of the Org may not have access to some objects of the plugins becouse the plugin's repositories doesn't deploys the user profile. For example, there is a section that asks you to create 2 segments with a specific RecordType. Two things may happen: the RecordType doesn't exist or you doesn't have access to it. Try creating the record types or editing your profile.
+> **_TIP_**: The administrator user of the Org may not have access to some objects of the plugins becouse the plugin's repositories doesn't deploys the user profile. For example, there is a section that asks you to create 2 segments with a specific RecordType. Two things may happen: the RecordType doesn't exist or you doesn't have access to it. Try creating the record types or editing your profile.
 
 ![Add Image](https://github.com/tibeal/Fielo-Tutorials/blob/master/Instalation/Source/Add%20RecordType.png?raw=true) <!-- .element height="50%" width="50%" -->
+
+## Libraries
+
+After you followed all the steps from the Official Document and the notes and the tips of this tutorial, you can activate the Libraries of the Packages.
+To do so, just go to:
+
+> **Fielo Platform** App > **Libraries** Tab > _Activate all the Libraries_
+
+> **NOTE**: The FieloELR library has an issue. It uses Models in order to make easier for the users to create Courses from pre-defined templates. So, before you activate it, go to the Models Object
+
+> Setup \> Develop \> Objects
 
 :construction: :warning: **_Work In Progress! This Document isn't ready yet!!!_** :warning: :construction:
