@@ -148,6 +148,41 @@ After that, still in the Sites tab create some pages. We suggest creating the fo
   - Login & Register
   - My Profile
 
+- **FieloELR**
+  - :warning:
+
+- **FieloPRP**
+  - My Invoices
+  - Invoice Detail
+  - Invoice Upload Settings
+  - Invoice Upload
+
+### 5.1 FieloPRP Implementation Guide
+
+After creating the suggested pages from step 5, one should do the following configuration go to:
+
+> **My Invoices** Page > **My Invoices** Component
+
+In the Record View Section chose **Internal Page**. For the **Detail component** chose **Invoice Detail > Invoice Record** and for the **Detail Parameter** chose **Id**
+
+Then go to:
+
+> **Invoice Upload** Page > **Invoice Upload** Widget
+
+In the **Invoice Upload** section you should set the following:
+
+| Field | Value | Description |
+| --- | --- | --- |
+| Redirect Page | Invoice Detail | |
+| Main Source Component | Invoice Record | Description: Invoice Record Src |
+| Secondary Source Component | Invoice Items | Desctiption: Invoice Items Src |
+| Custom Detail Parameter | id |  |
+| Submit Mode | Submit |  |
+| Has Details	| True |  |
+| Product Source Component | Product List |  |
+
+
+
 ## 6. Program Configuration CMS
 
 In the Programs tab go to:
