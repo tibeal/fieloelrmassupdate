@@ -88,5 +88,16 @@ Add the value **Course** to the picklist values.
 
 That should make you able to activate the FieloELR Library.
 
+## 4. Program Configuration CMS
+
+In the Programs tab go to:
+
+> Tools > Settings > "**Program > View**" settings
+
+If the field isn't in the classic layout edit the layout and add the field "**Standard Actions**", hit save. In the **Program > View** page settings add the value **View** to the field **Standard Actions** and save.
+
+
+
+
 
 :construction: :warning: **_Work In Progress! This Document isn't ready yet!!!_** :warning: :construction:
