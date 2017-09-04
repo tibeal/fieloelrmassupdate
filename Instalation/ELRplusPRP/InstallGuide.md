@@ -69,7 +69,7 @@ _**FieloPRP**_
 
 \*\*\*: Depending of your implementation, another product object must replace the Product2 object
 
-> **_TIP_**: The administrator user of the Org may not have access to some objects of the plugins becouse the plugin's repositories doesn't deploys the user profile. For example, there is a section that asks you to create 2 segments with a specific RecordType. Two things may happen: the RecordType doesn't exist or you doesn't have access to it. Try creating the record types or editing your profile.
+> **_TIP_**: The administrator user of the Org may not have access to some objects of the plugins because the plugin's repositories doesn't deploys the user profile. For example, there is a section that asks you to create 2 segments with a specific RecordType. Two things may happen: the RecordType doesn't exist or you doesn't have access to it. Try creating the record types or editing your profile.
 
 ![Add Image](https://github.com/tibeal/Fielo-Tutorials/blob/master/Instalation/Source/Add%20RecordType.png?raw=true) <!-- .element height="50%" width="50%" -->
 
