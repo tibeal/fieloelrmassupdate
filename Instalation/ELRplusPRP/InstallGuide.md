@@ -27,7 +27,7 @@ Use the following combination of repositories/branches to configure your environ
 | Repository | Branch |
 | --- | --- |
 |[FieloCMS-FieloPLT](https://github.com/Fielo-Plugins/fielocms-fieloplt)| feature/naming |
-|[FieloCMS-FieloELR](https://github.com/Fielo-Plugins/fielocms-fieloelr)| master :warning: (_work in progress_)|
+|[FieloCMS-FieloELR](https://github.com/Fielo-Plugins/fielocms-fieloelr)| master |
 |[FieloCMS-FieloPRP](https://github.com/Fielo-Plugins/fielocms-fieloprp)| master |
 
 Deploy them in the following order:
@@ -98,7 +98,7 @@ For each prugin hit activate. In the following order:
 
 - FieloCMS
 - PlatformPlugin
-- ElrPlugin :warning: (_work in progress_)
+- ElrPlugin
 - PrpPlugin
 
 ## 4. Fielo Theme
@@ -152,7 +152,11 @@ After that, still in the Sites tab create some pages. We suggest creating the fo
   - My Profile
 
 - **FieloELR**
-  - :warning: (_work in progress_)
+  - Courses
+  - Course Detail
+  - Module Detail
+  - Module Response Detail
+  - My Courses
 
 - **FieloPRP**
   - My Invoices
