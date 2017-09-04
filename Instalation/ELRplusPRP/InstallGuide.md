@@ -233,7 +233,7 @@ If they are not in the layout add the fields **Register Step 2 Page**, **Site UR
 
 Example:
 
-![Program Site Config](https://raw.githubusercontent.com/tibeal/Fielo-Tutorials/b6ee5ac3f0716324db71cb99a70f6c82e798f5d8/Instalation/Source/ProgramSiteConfig.gif)
+![Program Site Config](https://github.com/tibeal/Fielo-Tutorials/blob/master/Instalation/Source/ProgramSiteConfig.gif?raw=true)
 
 By now your Site should be working. There are few steps more to be 100% functional.
 
