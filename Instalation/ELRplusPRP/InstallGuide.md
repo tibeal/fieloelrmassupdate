@@ -18,7 +18,7 @@ Install them in the following sequence:
 3. **FieloELR**
 4. **FieloPRP**
 
-When you finish the installation of them all you will be ready to go to the next section
+When you finish the installation of them all, you will be ready to go to the next section
 
 ## 2. Plugins Installation
 
@@ -46,7 +46,7 @@ Here is the link to the Official Documentation:
 
 > [Fielo PLT & CMS packages](https://documentation.fielo.com/docs/fielo-platform-cms-packages)
 
-**_NOTE_**: Remember that the official documentation is for the PLT and CMS only. There are some sections that asks you to add permissions or set object attributes in order to enable them to the CMS. Do not forget to do the same for the ELR and PRP objects!!!
+**_NOTE_**: Remember that the official documentation is for the PLT and CMS only. There are some sections that ask you to add permissions or set object attributes in order to enable them to the CMS. Do not forget to do the same for the ELR and PRP objects!!!
 
 Here's a little help. These are the objects for each package that aren't in the Official Documentation:
 
@@ -67,9 +67,9 @@ _**FieloPRP**_
 - **Invoice Item**
 - **Product2** \*\*\*
 
-\*\*\*: Depending of your implementation, another product object must replace the Product2 object
+\*\*\*: Depending on your implementation, another product object must replace the Product2 object
 
-> **_TIP_**: The administrator user of the Org may not have access to some objects of the plugins because the plugin's repositories doesn't deploys the user profile. For example, there is a section that asks you to create 2 segments with a specific RecordType. Two things may happen: the RecordType doesn't exist or you doesn't have access to it. Try creating the record types or editing your profile.
+> **_TIP_**: The administrator user of the Org may not have access to some objects of the plugins because the plugin repositories don't deploy the user profile. For example, there is a section that asks you to create 2 segments with a specific RecordType. Two things may happen: the RecordType doesn't exist or you don't have access to it. Try creating the record types or editing your profile.
 
 ![Add Image](https://github.com/tibeal/Fielo-Tutorials/blob/master/Instalation/Source/Add%20RecordType.png?raw=true) <!-- .element height="50%" width="50%" -->
 
@@ -94,7 +94,7 @@ In order to activate the required plugins go to:
 
 > **Fielo CMS** App > **Plugins** Tab > **Actions** Button
 
-For each prugin hit activate. In the following order:
+For each plugin hit activate. In the following order:
 
 - FieloCMS
 - PlatformPlugin
@@ -103,7 +103,7 @@ For each prugin hit activate. In the following order:
 
 ## 4. Fielo Theme
 
-### 4.1 Dowload the Theme
+### 4.1 Download the Theme
 
 There is a repository that holds some styling templates for the CMS. Just go to:
 
@@ -113,7 +113,7 @@ And download the Zip file.
 
 ### 4.2 Upload the Theme into Salesforce
 
-Back to your Salesforce Org go to:
+Back to your Salesforce Org, go to:
 
 > **Setup** > **Develop** > **Static Resources**
 
@@ -131,18 +131,18 @@ Go to:
 
 > **Fielo CMS** App > **Sites** Tab
 
-By the first time in this page you will be asked to create a new Site Layout. We recomend using the _Create It_ link.
+By the first time in this page you will be asked to create a new Site Layout. We recommend using the _Create It_ link.
 
-There you will chose your Site Name, Look & Feel and Template.
+There you will choose your Site Name, Look & Feel and Template.
 
 We recomend the following:
 
 - **Look & Feel - Themes**: The only one available
 - **Template**: Header + Footer
 
-Then, edit your site and chose **Fielo** as your **Salesforce Site**.
+Then, edit your site and choose **Fielo** as your **Salesforce Site**.
 
-After that, still in the Sites tab create some pages. We suggest creating the following pages from it's models:
+After that, still in the Sites tab, create some pages. We suggest creating the following pages from its models:
 
 - **FieloPLT**
   - Home
@@ -170,11 +170,11 @@ After that, still in the Sites tab create some pages. We suggest creating the fo
 
 ### 5.2 FieloPRP Implementation Guide
 
-After creating the suggested pages from step 5, one should do the following configuration go to:
+After creating the suggested pages from step 5, one should do the following configuration. Go to:
 
 > **My Invoices** Page > **My Invoices** Component
 
-In the Record View Section chose **Internal Page**. For the **Detail component** chose **Invoice Detail > Invoice Record** and for the **Detail Parameter** chose **Id**
+In the Record View Section chose **Internal Page**. For the **Detail component** choose **Invoice Detail > Invoice Record** and for the **Detail Parameter** choose **Id**
 
 Then go to:
 
@@ -198,7 +198,7 @@ Now go to:
 
 > **Sites** Tab > **Main** Navigation
 
-There is a button called **Add Existing Page**. With that add the following pages:
+There is a button called **Add Existing Page**. With that, add the following pages:
 
 - Home
 - My Profile
@@ -222,7 +222,7 @@ After that, go back to the Programs tab and go to:
 
 > Tools > View
 
-If they are not in the layout add the fields **Register Step 2 Page**, **Site URL**, **Site User Profile** and **User Creation Clas** to the layout and set them as follows:
+If they are not in the layout add the fields **Register Step 2 Page**, **Site URL**, **Site User Profile** and **User Creation Class** to the layout and set them as follows:
 
 | Field | Value | Description |
 | --- | --- | --- |
@@ -261,15 +261,15 @@ Then go to Members tab and hit New
 
 Fill the fields in the form, put your email and the Account created in the previous instruction.
 
-This should create the member and also creates an contact under the previous created account.
+This should create the member and also creates a contact under the previous created account.
 
-Before creating the user for the Member, first we must set an **Role** for the **current user** in order to be able to create other users.
+Before creating the user for the Member, first we must set a **Role** for the **current user** in order to be able to create other users.
 
 Under your name click on **My settings** and then go to:
 
 > Personal > Advanced User Details
 
-Hit *edit* and chose an Role for you. (It doesn't matter which one you chose)
+Hit *edit* and choose a Role for you. (It doesn't matter which one you choose)
 
 Click save.
 
@@ -290,7 +290,7 @@ Hit save.
 
 In the new user detail, save somewhere the User Id *(you can get it in the URL)*.
 
-Now go to the member again and with the help of any plugin or through the developer console  or through the classic salesforce view update the member field whose apiname is **FieloPLT\_\_User\_\_c**.
+Now go to the member again and with the help of any plugin or through the developer console or through the classic salesforce view update the member field whose apiname is **FieloPLT\_\_User\_\_c**.
 
 Now go to your CMS Portal and go to the tab "**LOGIN & REGISTER**".
 
