@@ -110,7 +110,7 @@ In the *Invoice > Landing* page settings, look for the field named *Tools*
 ![image](https://user-images.githubusercontent.com/26011197/30133186-4f5ad0a8-9329-11e7-8819-4a92b11e1ab1.png)  
 Change the Action url string to the one corresponding to the new product list. See the example below:  
 
-![image](https://user-images.githubusercontent.com/26011197/30133311-cb63891a-9329-11e7-946e-5ae65351e773.png)  
+![image](https://user-images.githubusercontent.com/26011197/30133818-8c1e33a2-932b-11e7-93ae-4bf04ebf30c7.png)  
 
 
 ![image](https://user-images.githubusercontent.com/26011197/30133439-4263e320-932a-11e7-8452-81229fa660f1.png)  
