@@ -105,7 +105,7 @@ Product results:
 
 Change page settings for all pages that display product items!
 
-2.2 On the Invoices landing Page, it is necessary to change the *Products* link (Tools > Products)  
+2.2 On the Invoices landing Page, it is necessary to change the *Products* link (Tools > Products).  
 In the *Invoice > Landing* page settings, look for the field named *Tools*  
 ![image](https://user-images.githubusercontent.com/26011197/30133186-4f5ad0a8-9329-11e7-8819-4a92b11e1ab1.png)  
 Change the Action url string to the one corresponding to the new product list. See the example below:  
