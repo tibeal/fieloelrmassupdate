@@ -114,7 +114,6 @@ Change the Action url string to the one corresponding to the new product list. S
 
 
 ![image](https://user-images.githubusercontent.com/26011197/30133439-4263e320-932a-11e7-8452-81229fa660f1.png)  
-
 After clicking the new Products link, you'll be able to see the custom product list.  
 
 
