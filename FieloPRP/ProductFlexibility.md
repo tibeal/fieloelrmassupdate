@@ -23,7 +23,7 @@ Hit Save.
 With this the First Step is completed.
 
 ## 2. Backend
-The field being used by the Invoice Item to reference the product and the fieldsets of the product advanced search are controlled by Page Settings.
+2.1. The field being used by the Invoice Item to reference the product and the fieldsets of the product advanced search are controlled by Page Settings.
 The Standard Page Settings Section Field for the Invoice Edit/New looks like the following:
 
 > [Invoice Edit Page Settings](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/PageSettings.json)
@@ -104,6 +104,19 @@ Product results:
 > ![Product results](https://github.com/tibeal/Fielo-Tutorials/blob/master/FieloPRP/Source/external_prod_results.gif?raw=true)
 
 Change page settings for all pages that display product items!
+
+2.2 On the Invoices landing Page, it is necessary to change the *Products* link (Tools > Products)  
+In the *Invoice > Landing* page settings, look for the field named *Tools*  
+![image](https://user-images.githubusercontent.com/26011197/30133186-4f5ad0a8-9329-11e7-8819-4a92b11e1ab1.png)  
+Change the Action url string to the one corresponding to the new product list. See the example below:  
+
+![image](https://user-images.githubusercontent.com/26011197/30133311-cb63891a-9329-11e7-946e-5ae65351e773.png)  
+
+
+![image](https://user-images.githubusercontent.com/26011197/30133439-4263e320-932a-11e7-8452-81229fa660f1.png)  
+
+After clicking the new Products link, you'll be able to see the custom product list.  
+
 
 ## 3. Frontend
 In order to use the custom Product object in Frontend, make the following settings:
