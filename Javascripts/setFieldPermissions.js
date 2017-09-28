@@ -1,4 +1,3 @@
-​
 // Read and Edit
 var checkboxes=document.getElementsByTagName('input');
 for(i=0;i<checkboxes.length;i++)
