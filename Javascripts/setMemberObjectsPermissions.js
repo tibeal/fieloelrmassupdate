@@ -19,16 +19,22 @@ var readFlag;
 var editFlag;
 var createFlag;
 [].forEach.call(objects, function(object) {
-console.log(object);
-var readFlag =
-document.querySelector('[title="Read ' + object + '"]');
-readFlag.checked = 'checked';
-if (readEditObjects.indexOf(object) !== -1) {
-editFlag =
-document.querySelector('[title="Edit ' + object + '"]');
-createFlag =
-document.querySelector('[title="Create ' + object + '"]');
-editFlag.checked = 'checked';
-createFlag.checked = 'checked';
-}
+  console.log(object);
+  var readFlag =
+  document.querySelector('[title="Read ' + object + '"]');
+  if (readFlag) {
+    readFlag.checked = 'checked';
+  }
+  if (readEditObjects.indexOf(object) !== -1) {
+    editFlag =
+    document.querySelector('[title="Edit ' + object + '"]');
+    createFlag =
+    document.querySelector('[title="Create ' + object + '"]');
+    if (editFlag) {
+      editFlag.checked = 'checked';
+    }
+    if (createFlag) {
+      createFlag.checked = 'checked';
+    }
+  }
 });

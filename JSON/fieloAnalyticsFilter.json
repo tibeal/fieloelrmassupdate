@@ -1,0 +1,52 @@
+// Structute Definition:
+[
+  {
+    "Report Field": "",  /* Field in the Report to filter on */
+    "Record Field": "",  /* Field of the record that will be used as filter value on the report (Use Value or Record Field, not both) */
+    "Operator": "",      /* Optional, Defaults to equals if not provided */
+    "Value": ""          /* Fixed Value (Use Value or Record Field, not both) */
+  } 
+  /* Can have multiple filters, 
+		but due to a SFDC limitation 
+		(cannot pass reportBooleanFilter as parameter) 
+		all filters will be joined with an AND operator. */
+]
+
+// Filtering by record field:
+[
+  {
+    "Report Field": "FK_FieloPLT__Member__c.FieloPLT__Program__c",
+    "Record Field": "FieloPLT__Program__r.Name"
+  }
+]
+
+// Filtering by value:
+[
+  {
+    "Report Field": "FK_FieloPLT__Member__c.FieloPLT__Program__c",    	/* Field in the Report to filter on */
+    "Value": "Default"                                     				/* Fixed Value (Use Value or Record Field, not both) */
+  }
+]
+
+// Multiple filters example
+[
+  {
+    "Report Field": "FK_FieloPLT__Member__c.FieloPLogram__c",
+    "Record Field": "FieloPLT__Program__r.Name"
+  },
+  {
+    "Report Field": "CUST_CREATED_DATE",
+    "Value": "TODAY",
+    "Operator": "lessOrEqual"   
+  },
+  {
+    "Report Field": "CUST_CREATED_DATE",
+    "Value": "6 MONTHS AGO",
+    "Operator": "greaterThan"
+  }
+]
+
+// Results (For the Default Program Details Page):
+	Program equals "Default"
+AND CreatedDate less or equials "TODAY"
+AND CreatedDate greater then "6 MONTHS AGO"

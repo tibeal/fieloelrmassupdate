@@ -1,5 +1,5 @@
-Id memberId = 'a0H6A000001QZwcUAG';
-Id moduleId = 'a0o6A000000IqUzQAK';
+Id memberId = 'a0H6A000000GYSNUA4';
+Id moduleId = 'a0m6A0000014V3EQAU';
 
 FieloPLT__Member__c member =
   [Select Id, Name, FieloPLT__Program__c From FieloPLT__Member__c Where Id = :memberId];
@@ -26,7 +26,9 @@ FieloELR__ModuleResponse__c mr = new FieloELR__ModuleResponse__c(
 
 try{
   upsert mr;
-}catch(Exception e){}
+}catch(Exception e){
+  System.debug(e);
+}
 
 List<FieloELR__QuestionResponse__c> qrs = new List<FieloELR__QuestionResponse__c>();
 for(FieloELR__Question__c question: questionsMap.values()) {

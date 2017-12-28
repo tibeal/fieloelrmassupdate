@@ -1,0 +1,165 @@
+{
+  "multipicklist" : [
+    {"name" : "equals", "label" : "equals"},
+    {"name" : "notEqual", "label" : "not equal to"},
+    {"name" : "includes", "label" : "includes"},
+    {"name" : "excludes", "label" : "excludes"}
+  ],
+  "email" : [
+    {"name" : "equals", "label" : "equals"},
+    {"name" : "notEqual", "label" : "not equal to"},
+    {"name" : "lessThan", "label" : "less than"},
+    {"name" : "greaterThan", "label" : "greater than"},
+    {"name" : "lessOrEqual", "label" : "less or equal"},
+    {"name" : "greaterOrEqual", "label" : "greater or equal"},
+    {"name" : "contains", "label" : "contains"},
+    {"name" : "notContain", "label" : "does not contain"},
+    {"name" : "startsWith", "label" : "starts with"}
+  ],
+  "time" : [
+    {"name" : "equals", "label" : "equals"},
+    {"name" : "notEqual", "label" : "not equal to"},
+    {"name" : "lessThan", "label" : "less than"},
+    {"name" : "greaterThan", "label" : "greater than"},
+    {"name" : "lessOrEqual", "label" : "less or equal"},
+    {"name" : "greaterOrEqual", "label" : "greater or equal"}
+  ],
+  "id" : [
+    {"name" : "equals", "label" : "equals"},
+    {"name" : "notEqual", "label" : "not equal to"},
+    {"name" : "startsWith", "label" : "starts with"}
+  ],
+  "html" : [
+    {"name" : "equals", "label" : "equals"},
+    {"name" : "notEqual", "label" : "not equal to"},
+    {"name" : "lessThan", "label" : "less than"},
+    {"name" : "greaterThan", "label" : "greater than"},
+    {"name" : "lessOrEqual", "label" : "less or equal"},
+    {"name" : "greaterOrEqual", "label" : "greater or equal"},
+    {"name" : "contains", "label" : "contains"},
+    {"name" : "notContain", "label" : "does not contain"},
+    {"name" : "startsWith", "label" : "starts with"}
+  ],
+  "currency" : [
+    {"name" : "equals", "label" : "equals"},
+    {"name" : "notEqual", "label" : "not equal to"},
+    {"name" : "lessThan", "label" : "less than"},
+    {"name" : "greaterThan", "label" : "greater than"},
+    {"name" : "lessOrEqual", "label" : "less or equal"},
+    {"name" : "greaterOrEqual", "label" : "greater or equal"}
+  ],
+  "phone" : [
+    {"name" : "equals", "label" : "equals"},
+    {"name" : "notEqual", "label" : "not equal to"},
+    {"name" : "lessThan", "label" : "less than"},
+    {"name" : "greaterThan", "label" : "greater than"},
+    {"name" : "lessOrEqual", "label" : "less or equal"},
+    {"name" : "greaterOrEqual", "label" : "greater or equal"},
+    {"name" : "contains", "label" : "contains"},
+    {"name" : "notContain", "label" : "does not contain"},
+    {"name" : "startsWith", "label" : "starts with"}
+  ],
+  "boolean" : [
+    {"name" : "equals", "label" : "equals"},
+    {"name" : "notEqual", "label" : "not equal to"}
+  ],
+  "datetime" : [
+    {"name" : "equals", "label" : "equals"},
+    {"name" : "notEqual", "label" : "not equal to"},
+    {"name" : "lessThan", "label" : "less than"},
+    {"name" : "greaterThan", "label" : "greater than"},
+    {"name" : "lessOrEqual", "label" : "less or equal"},
+    {"name" : "greaterOrEqual", "label" : "greater or equal"}
+   ],
+  "reference" : [
+    {"name" : "equals", "label" : "equals"},
+    {"name" : "notEqual", "label" : "not equal to"}
+  ],
+  "url" : [
+    {"name" : "equals", "label" : "equals"},
+    {"name" : "notEqual", "label" : "not equal to"},
+    {"name" : "lessThan", "label" : "less than"},
+    {"name" : "greaterThan", "label" : "greater than"},
+    {"name" : "lessOrEqual", "label" : "less or equal"},
+    {"name" : "greaterOrEqual", "label" : "greater or equal"},
+    {"name" : "contains", "label" : "contains"},
+    {"name" : "notContain", "label" : "does not contain"},
+    {"name" : "startsWith", "label" : "starts with"}
+  ],
+  "int" : [ 
+	{"name" : "equals", "label" : "equals"},
+	{"name" : "notEqual", "label" : "not equal to"},
+	{"name" : "lessThan", "label" : "less than"},
+	{"name" : "greaterThan", "label" : "greater than"},
+	{"name" : "lessOrEqual", "label" : "less or equal"},
+	{"name" : "greaterOrEqual", "label" : "greater or equal"}
+	],
+  "percent" : [ 
+	{"name" : "equals", "label" : "equals"},
+	{"name" : "notEqual", "label" : "not equal to"},
+	{"name" : "lessThan", "label" : "less than"},
+	{"name" : "greaterThan", "label" : "greater than"},
+	{"name" : "lessOrEqual", "label" : "less or equal"},
+	{"name" : "greaterOrEqual", "label" : "greater or equal"}
+	],
+  "encryptedstring" : [ 
+	{"name" : "equals", "label" : "equals"},
+	{"name" : "notEqual", "label" : "not equal to"},
+	{"name" : "lessThan", "label" : "less than"},
+	{"name" : "greaterThan", "label" : "greater than"},
+	{"name" : "lessOrEqual", "label" : "less or equal"},
+	{"name" : "greaterOrEqual", "label" : "greater or equal"},
+	{"name" : "contains", "label" : "contains"},
+	{"name" : "notContain", "label" : "does not contain"},
+	{"name" : "startsWith", "label" : "starts with"}
+	],
+  "textarea" : [ 
+	{"name" : "equals","label" : "equals"},
+	{"name" : "notEqual","label" : "not equal to"},
+	{"name" : "lessThan","label" : "less than"},
+	{"name" : "greaterThan", "label" : "greater than"},
+	{"name" : "lessOrEqual", "label" : "less or equal"},
+	{"name" : "greaterOrEqual", "label" : "greater or equal"},
+	{"name" : "contains", "label" : "contains"},
+	{"name" : "notContain", "label" : "does not contain"},
+	{"name" : "startsWith", "label" : "starts with"}
+	],
+  "picklist" : [ 
+	{"name" : "equals", "label" : "equals"},
+	{"name" : "notEqual", "label" : "not equal to"},
+	{"name" : "lessThan","label" : "less than"},
+	{"name" : "greaterThan", "label" : "greater than"},
+	{"name" : "lessOrEqual", "label" : "less or equal"},
+	{"name" : "greaterOrEqual", "label" : "greater or equal"},
+	{"name" : "contains", "label" : "contains"},
+	{"name" : "notContain", "label" : "does not contain"},
+	{"name" : "startsWith","label" : "starts with"}
+	],
+  "double" : [ 
+	{"name" : "equals","label" : "equals"},
+	{"name" : "notEqual","label" : "not equal to"},
+	{"name" : "lessThan", "label" : "less than"},
+	{"name" : "greaterThan", "label" : "greater than"},
+	{"name" : "lessOrEqual", "label" : "less or equal"},
+	{"name" : "greaterOrEqual", "label" : "greater or equal"}
+	],
+  "string" : [ 
+	{"name" : "equals", "label" : "equals"},
+	{"name" : "notEqual", "label" : "not equal to"},
+	{"name" : "lessThan", "label" : "less than"},
+	{"name" : "greaterThan", "label" : "greater than"},
+	{"name" : "lessOrEqual", "label" : "less or equal"},
+	{"name" : "greaterOrEqual", "label" : "greater or equal"},
+	{"name" : "contains", "label" : "contains"},
+	{"name" : "notContain", "label" : "does not contain"},
+	{"name" : "startsWith", "label" : "starts with"}
+	],
+  "date" : [ 
+	{"name" : "equals", "label" : "equals"},
+	{"name" : "notEqual", "label" : "not equal to"},
+	{"name" : "lessThan", "label" : "less than"},
+	{"name" : "greaterThan", "label" : "greater than"},
+	{"name" : "lessOrEqual", "label" : "less or equal"},
+	{"name" : "greaterOrEqual", "label" : "greater or equal"}
+	]
+}
