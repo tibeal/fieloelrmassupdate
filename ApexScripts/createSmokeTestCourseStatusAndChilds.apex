@@ -1,5 +1,6 @@
-Id memberId = 'a0H6A000000GYSNUA4';
-Id courseId = 'a0j6A000001tZOnQAM';
+Id memberId = [SELECT Id FROM FieloPLT__Member__c WHERE FieloPLT__Program__r.Name = 'Training Center' LIMIT 1].Id;
+
+Id courseId = 'a0j6A000001tdLRQAY';
 
 delete [Select Id From FieloELR__CourseStatus__c Where FieloELR__Course__c = :courseId AND FieloELR__Member__c = :memberId];
 

@@ -1,5 +1,5 @@
 List <Report> reportList = [SELECT Id,DeveloperName FROM Report where
-    DeveloperName = 'PointsGeneratedPerPromotion'];
+    DeveloperName = 'AvailableCourses'];
 String reportId = (String)reportList.get(0).get('Id');
 
 // Run a report
@@ -14,6 +14,10 @@ System.debug('Filters');
 System.debug(JSON.serializePretty(rm.getreportFilters()));
 System.debug('Results');
 System.debug(JSON.serializePretty(results));
+System.debug('Details');
+System.debug(JSON.serializePretty(rm.getBuckets()));
+
+
 
 
 /* Get Possible Filter Operators

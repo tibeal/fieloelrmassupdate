@@ -1,4 +1,4 @@
-String versionNo = 'v1.41.0';
+String versionNo = 'v1.42.0';
 
 List<FieloPLT__Program__c> programs = new List<FieloPLT__Program__c>();
 List<FieloELR__Course__c> courses = new List<FieloELR__Course__c>();
