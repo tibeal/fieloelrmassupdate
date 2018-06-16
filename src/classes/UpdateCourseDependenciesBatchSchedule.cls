@@ -12,7 +12,7 @@ global class UpdateCourseDependenciesBatchSchedule implements Database.Batchable
 	}
 
    	global void execute(Database.BatchableContext BC, List<sObject> scope) {
-		SObjectUnitOfWork uow = new SObjectUnitOfWork(new List<Schema.SObjectType>{FieloELR__CourseDependency__c.SObjectType});
+		FieloELRUPD_SObjectUnitOfWork uow = new FieloELRUPD_SObjectUnitOfWork(new List<Schema.SObjectType>{FieloELR__CourseDependency__c.SObjectType});
 		FieloELR__CourseDependency__c courseDependency;
 		for(sobject record: scope) {
 			courseDependency = (FieloELR__CourseDependency__c) record;

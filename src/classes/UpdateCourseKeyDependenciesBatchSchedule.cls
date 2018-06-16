@@ -14,7 +14,7 @@ global class UpdateCourseKeyDependenciesBatchSchedule implements Database.Batcha
 	}
 
    	global void execute(Database.BatchableContext BC, List<sObject> scope) {
-		SObjectUnitOfWork uow = new SObjectUnitOfWork(new List<Schema.SObjectType>{FieloELR__Course__c.SObjectType});
+		FieloELRUPD_SObjectUnitOfWork uow = new FieloELRUPD_SObjectUnitOfWork(new List<Schema.SObjectType>{FieloELR__Course__c.SObjectType});
 		FieloELR__Course__c course;
 		Set<Id> predecessors = new Set<Id>();
 		for(sobject record: scope) {

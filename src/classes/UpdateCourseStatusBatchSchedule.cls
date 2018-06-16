@@ -12,7 +12,7 @@ global class UpdateCourseStatusBatchSchedule implements Database.Batchable<sObje
 	}
 
    	global void execute(Database.BatchableContext BC, List<sObject> scope) {
-		SObjectUnitOfWork uow = new SObjectUnitOfWork(new List<Schema.SObjectType>{FieloELR__CourseStatus__c.SObjectType});
+		FieloELRUPD_SObjectUnitOfWork uow = new FieloELRUPD_SObjectUnitOfWork(new List<Schema.SObjectType>{FieloELR__CourseStatus__c.SObjectType});
 		FieloELR__CourseStatus__c courseStatus;
 		for(sobject record: scope) {
 			courseStatus = (FieloELR__CourseStatus__c) record;

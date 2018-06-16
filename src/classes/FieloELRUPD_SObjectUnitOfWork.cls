@@ -51,7 +51,7 @@
  * TODO: Need to add some more test methods for more complex use cases and some unexpected (e.g. registerDirty and then registerDeleted)
  *
  **/
-public virtual class SObjectUnitOfWork{
+public virtual class FieloELRUPD_SObjectUnitOfWork{
     private List<Schema.SObjectType> m_sObjectTypes = new List<Schema.SObjectType>();
     public Map<String, List<SObject>> m_newListByType = new Map<String, List<SObject>>();
     public Map<String, Map<Id, SObject>> m_dirtyMapByType = new Map<String, Map<Id, SObject>>();
@@ -143,11 +143,11 @@ public virtual class SObjectUnitOfWork{
      *
      * @param sObjectList A list of objects given in dependency order (least dependent first)
      */
-    public SObjectUnitOfWork(List<Schema.SObjectType> sObjectTypes){
+    public FieloELRUPD_SObjectUnitOfWork(List<Schema.SObjectType> sObjectTypes){
         this(sObjectTypes,new SimpleDML());
     }
 
-    public SObjectUnitOfWork(List<Schema.SObjectType> sObjectTypes, Boolean partialDML){
+    public FieloELRUPD_SObjectUnitOfWork(List<Schema.SObjectType> sObjectTypes, Boolean partialDML){
         if(!partialDML){
             this(sObjectTypes,new SimpleDML());
         }else{
@@ -155,7 +155,7 @@ public virtual class SObjectUnitOfWork{
         }
     }
 
-    public SObjectUnitOfWork(List<Schema.SObjectType> sObjectTypes, IDML dml){
+    public FieloELRUPD_SObjectUnitOfWork(List<Schema.SObjectType> sObjectTypes, IDML dml){
         m_sObjectTypes = sObjectTypes.clone();
         for(Schema.SObjectType sObjectType : m_sObjectTypes){
             // register the type
