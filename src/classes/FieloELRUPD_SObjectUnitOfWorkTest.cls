@@ -25,7 +25,7 @@
 **/
 
 @IsTest
-private with sharing class FieloELRUPD_SObjectUnitOfWorkTest
+private with sharing class FieloELRUPD_FieloELRUPD_SObjectUnitOfWorkTest
 {
 	// SObjects (in order of dependency) used by UnitOfWork in tests bellow
 	private static List<Schema.SObjectType> MY_SOBJECTS =
@@ -40,7 +40,7 @@ private with sharing class FieloELRUPD_SObjectUnitOfWorkTest
 	{
 		// Insert Opporunities with UnitOfWork
 		{
-			SObjectUnitOfWork uow = new SObjectUnitOfWork(MY_SOBJECTS);
+			FieloELRUPD_SObjectUnitOfWork uow = new FieloELRUPD_SObjectUnitOfWork(MY_SOBJECTS);
 			for(Integer o=0; o<10; o++)
 			{
 				Opportunity opp = new Opportunity();
@@ -80,7 +80,7 @@ private with sharing class FieloELRUPD_SObjectUnitOfWorkTest
 
 		// Update some records with UnitOfWork
 		{
-			SObjectUnitOfWork uow = new SObjectUnitOfWork(MY_SOBJECTS);
+			FieloELRUPD_SObjectUnitOfWork uow = new FieloELRUPD_SObjectUnitOfWork(MY_SOBJECTS);
 			Opportunity opp = opps[0];
 			opp.Name = opp.Name + ' Changed';
 			uow.registerDirty(new List<SObject>{opp});
@@ -123,7 +123,7 @@ private with sharing class FieloELRUPD_SObjectUnitOfWorkTest
 
 		// Delete some records with the UnitOfWork
 		{
-			SObjectUnitOfWork uow = new SObjectUnitOfWork(MY_SOBJECTS);
+			FieloELRUPD_SObjectUnitOfWork uow = new FieloELRUPD_SObjectUnitOfWork(MY_SOBJECTS);
 			uow.registerDeleted(new List<SObject>{opps[0].OpportunityLineItems[1].PricebookEntry.Product2}); // Delete PricebookEntry Product
 			uow.registerDeleted(new List<SObject>{opps[0].OpportunityLineItems[1].PricebookEntry}); // Delete PricebookEntry
 			uow.registerDeleted(new List<SObject>{opps[0].OpportunityLineItems[1]}); // Delete OpportunityLine Item
@@ -330,7 +330,7 @@ private with sharing class FieloELRUPD_SObjectUnitOfWorkTest
 	/**
 	 * DoWork implementation that throws exception during processing
 	 */
-	private class FailDoingWork implements SObjectUnitOfWork.IDoWork
+	private class FailDoingWork implements FieloELRUPD_SObjectUnitOfWork.IDoWork
 	{
 		public void doWork()
 		{
@@ -341,7 +341,7 @@ private with sharing class FieloELRUPD_SObjectUnitOfWorkTest
 	/**
 	 * Derived unit of work that tracks event notifications and handle registration of type
 	 */
-	private class DerivedUnitOfWork extends SObjectUnitOfWork
+	private class DerivedUnitOfWork extends FieloELRUPD_SObjectUnitOfWork
 	{
 		private List<String> m_commitWorkEventsFired = new List<String>();
 		private Set<Schema.SObjectType> m_registeredTypes = new Set<Schema.SObjectType>();
