@@ -25,7 +25,7 @@
 **/
 
 @IsTest
-private with sharing class FieloELRUPD_FieloELRUPD_SObjectUnitOfWorkTest
+private with sharing class FieloELRUPD_SObjectUnitOfWorkTest
 {
 	// SObjects (in order of dependency) used by UnitOfWork in tests bellow
 	private static List<Schema.SObjectType> MY_SOBJECTS =
