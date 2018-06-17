@@ -12,7 +12,7 @@ global class UpdateModuleDependenciesBatchSchedule implements Database.Batchable
 	}
 
    	global void execute(Database.BatchableContext BC, List<sObject> scope) {
-		SObjectUnitOfWork uow = new SObjectUnitOfWork(new List<Schema.SObjectType>{FieloELR__ModuleDependency__c.SObjectType});
+		FieloELRUPD_SObjectUnitOfWork uow = new FieloELRUPD_SObjectUnitOfWork(new List<Schema.SObjectType>{FieloELR__ModuleDependency__c.SObjectType});
 		FieloELR__ModuleDependency__c moduleDependency;
 		for(sobject record: scope) {
 			moduleDependency = (FieloELR__ModuleDependency__c) record;

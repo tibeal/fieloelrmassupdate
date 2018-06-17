@@ -12,7 +12,7 @@ global class UpdateQuestionResponseBatchSchedule implements Database.Batchable<s
 	}
 
    	global void execute(Database.BatchableContext BC, List<sObject> scope) {
-		SObjectUnitOfWork uow = new SObjectUnitOfWork(new List<Schema.SObjectType>{FieloELR__QuestionResponse__c.SObjectType});
+		FieloELRUPD_SObjectUnitOfWork uow = new FieloELRUPD_SObjectUnitOfWork(new List<Schema.SObjectType>{FieloELR__QuestionResponse__c.SObjectType});
 		FieloELR__QuestionResponse__c questionResponse;
 		for(sobject record: scope) {
 			questionResponse = (FieloELR__QuestionResponse__c) record;

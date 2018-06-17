@@ -12,7 +12,7 @@ global class UpdateModuleResponseBatchSchedule implements Database.Batchable<sOb
 	}
 
    	global void execute(Database.BatchableContext BC, List<sObject> scope) {
-		SObjectUnitOfWork uow = new SObjectUnitOfWork(new List<Schema.SObjectType>{FieloELR__ModuleResponse__c.SObjectType});
+		FieloELRUPD_SObjectUnitOfWork uow = new FieloELRUPD_SObjectUnitOfWork(new List<Schema.SObjectType>{FieloELR__ModuleResponse__c.SObjectType});
 		FieloELR__ModuleResponse__c moduleResponse;
 		for(sobject record: scope) {
 			moduleResponse = (FieloELR__ModuleResponse__c) record;
