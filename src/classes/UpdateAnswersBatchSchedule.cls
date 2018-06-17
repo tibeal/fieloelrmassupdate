@@ -19,7 +19,9 @@ global class UpdateAnswersBatchSchedule implements Database.Batchable<sObject> {
 			answer.FieloELR__ExternalKey__c = String.valueOf(answer.FieloELR__QuestionResponse__c) + String.valueOf(answer.FieloELR__AnswerOption__c);
 			uow.registerDirty(answer);
 		}
+		FieloELR.CourseService.enableAdminPermission(true);
 		uow.commitWork();
+		FieloELR.CourseService.enableAdminPermission(false);
 	}
 	
 	global void finish(Database.BatchableContext BC){

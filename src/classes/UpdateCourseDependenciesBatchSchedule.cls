@@ -19,7 +19,9 @@ global class UpdateCourseDependenciesBatchSchedule implements Database.Batchable
 			courseDependency.FieloELR__ExternalKey__c = ((string)courseDependency.FieloELR__Course__c) + ((string)courseDependency.FieloELR__Predecessor__c);
 			uow.registerDirty(courseDependency);
 		}
+		FieloELR.CourseService.enableAdminPermission(true);
 		uow.commitWork();
+		FieloELR.CourseService.enableAdminPermission(false);
 	}
 	
 	global void finish(Database.BatchableContext BC){
