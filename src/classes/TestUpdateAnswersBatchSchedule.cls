@@ -1,23 +1,23 @@
 @isTest
 public class TestUpdateAnswersBatchSchedule {
 	@isTest static void runTests() {
-		MockUpFactory.testTemporal();
-		MockUpFactory.testTemporal2();
-		MockUpFactory.testTemporal3();
-		MockUpFactory.testTemporal4();
-		MockUpFactory.testTemporal5();
-		MockUpFactory.testTemporal6();
-		MockUpFactory.testTemporal7();
-		MockUpFactory.testTemporal8();
-		MockUpFactory.testTemporal9();
-		MockUpFactory.testTemporal10();
-		MockUpFactory.testTemporal11();
-		MockUpFactory.testTemporal12();
-		MockUpFactory.testTemporal13();
-		MockUpFactory.testTemporal14();
-		MockUpFactory.testTemporal15();
-		MockUpFactory.testTemporal16();
-		MockUpFactory.testTemporal17();
-		MockUpFactory.testTemporal18();
+		FieloELRUPD_MockUpFactory.testTemporal();
+		FieloELRUPD_MockUpFactory.testTemporal2();
+		FieloELRUPD_MockUpFactory.testTemporal3();
+		FieloELRUPD_MockUpFactory.testTemporal4();
+		FieloELRUPD_MockUpFactory.testTemporal5();
+		FieloELRUPD_MockUpFactory.testTemporal6();
+		FieloELRUPD_MockUpFactory.testTemporal7();
+		FieloELRUPD_MockUpFactory.testTemporal8();
+		FieloELRUPD_MockUpFactory.testTemporal9();
+		FieloELRUPD_MockUpFactory.testTemporal10();
+		FieloELRUPD_MockUpFactory.testTemporal11();
+		FieloELRUPD_MockUpFactory.testTemporal12();
+		FieloELRUPD_MockUpFactory.testTemporal13();
+		FieloELRUPD_MockUpFactory.testTemporal14();
+		FieloELRUPD_MockUpFactory.testTemporal15();
+		FieloELRUPD_MockUpFactory.testTemporal16();
+		FieloELRUPD_MockUpFactory.testTemporal17();
+		FieloELRUPD_MockUpFactory.testTemporal18();
 	}
 }
