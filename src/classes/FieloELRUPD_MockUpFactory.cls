@@ -1,4 +1,4 @@
-public class MockUpFactory {
+public class FieloELRUPD_MockUpFactory {
 	public static void testTemporal(){
 		Integer i = 0;
 		i++;
